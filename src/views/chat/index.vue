@@ -20,7 +20,7 @@
 
         <div class="message-block" v-else>
           <div class="header">
-            <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3495468696,3471928735&fm=11&gp=0.jpg" :alt="chat.username">
+            <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3599989605,2377066072&fm=27&gp=0.jpg" :alt="chat.username">
           </div>
           <div class="message">
             <div class="username">{{chat.username}}</div>
@@ -45,7 +45,7 @@
 </template>
 
 <script>
-let wsServer = new WebSocket('ws://39.106.62.130:3001/chat');
+let wsServer = new WebSocket('ws://flashchat.godaangel.com/chat');
 // let wsServer = new WebSocket('ws://127.0.0.1:3001/chat');
 export default {
   name: 'ChatIndex',
